@@ -1,7 +1,6 @@
 #!usr/bin/bash
 #Detect file for c++ app
 #bin/detect/ <build_dir>
-echo "detecting"
 BUILD_DIR=$1
 if [ -f "$BUILD_DIR/Makefile" ]
 then 
